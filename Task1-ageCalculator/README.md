@@ -48,3 +48,9 @@ export default tseslint.config({
   },
 })
 ```
+```
+Runs the Project
+Step1: pull the repo
+Step2: install npm
+run the Project: npm run dev
+```
