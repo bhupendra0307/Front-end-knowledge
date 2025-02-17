@@ -5,6 +5,7 @@ import ResultDisplay from './ResultDisplay';
 import { calculateAge } from '../utils/calculateAge';
 import { DateValues } from '../types/types';
 import '../styles/AgeCalculator.css';
+import Footer from './Footer';
 
 const AgeCalculator: React.FC = () => {
   const [dateValues, setDateValues] = useState<DateValues>({
@@ -51,6 +52,7 @@ const AgeCalculator: React.FC = () => {
       <button onClick={calculateUserAge}>Calculate Age</button>
       {error && <p className="error">{error}</p>}
       <ResultDisplay age={age} />
+      <Footer />
     </div>
   );
 };
