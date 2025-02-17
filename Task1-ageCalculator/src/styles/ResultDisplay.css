@@ -1,0 +1,15 @@
+.result-display {
+    margin-top: 2rem;
+  }
+  
+  .result-display p {
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    margin: 0.5rem 0;
+    color: #333;
+  }
+  
+  .result-display span {
+    color: #854dff;
+  }
