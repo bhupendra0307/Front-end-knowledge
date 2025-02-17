@@ -41,6 +41,12 @@
   }
   .age-calculator:hover{
     /* transform: scale(1.2); */
-    background-color: lightcoral;
+    background-color: rgb(139, 214, 224);
     transition: transform 5s ease-out, background-color 5s ease-out;
   }
+
+h1#codeAlpha{
+  border-bottom: 2px solid black;
+  padding-bottom: 1.5rem;
+  color: rgb(255, 255, 255);
+}

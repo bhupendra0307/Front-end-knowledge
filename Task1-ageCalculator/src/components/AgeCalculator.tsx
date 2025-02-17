@@ -45,6 +45,7 @@ const AgeCalculator: React.FC = () => {
 
   return (
     <div className="age-calculator">
+      <h1 id='codeAlpha'>Code Alpha Task1 Completed</h1>
       <h1>Age Calculator</h1>
       <DateInput onDateChange={setDateValues} />
       <button onClick={calculateUserAge}>Calculate Age</button>
